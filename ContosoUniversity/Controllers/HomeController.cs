@@ -10,8 +10,17 @@ namespace ContosoUniversity.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("");
+        }
+        
+
+      
 
         public ActionResult About()
         {
